@@ -27,9 +27,12 @@ SRC = ft_atoi.c \
 	ft_memmove.c \
 	ft_memset.c \
 	ft_putchar_fd.c \
+	ft_putchar_int.c \
 	ft_putendl_fd.c \
 	ft_putnbr_fd.c \
+	ft_putnbr_int.c \
 	ft_putstr_fd.c \
+	ft_putstr_int.c \
 	ft_split.c \
 	ft_strchr.c \
 	ft_strdup.c \
@@ -46,7 +49,9 @@ SRC = ft_atoi.c \
 	ft_substr.c \
 	ft_tolower.c \
 	ft_toupper.c \
-	get_next_line.c
+	ft_printf.c \
+	get_next_line.c \
+	ft_vastrjoin.c
 
 BSRC = ft_lstnew_bonus.c \
 	ft_lstadd_front_bonus.c \
